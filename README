@@ -1,0 +1,31 @@
+
+Assummptions
+ -That user already has knowledge to set up PHP+MYSQL
+ Requirememts
+ - PHP5+MYSQL+INTERNET (for js and css CDNs)
+Installation
+- Import database folder db.sql 
+- Copy temper folder into your root directory.
+- If you are using MacOs XAMPP root directory => $ Applications/XAMPP/htdocs
+- Set database/username/password in config.php
+
+Now you are all set
+- Goto localhost/temper
+- see generated chart data at localhost/temper/data.php
+
+Notes to the challenger
+- Application is done using plain php, saw no need to use a framework
+- No login system, there page is accessible to everyone - was not part of the challenge
+- Given data not good for plotting rentention curve - retention curve works on users having arrived at the same time and getting eliminated over time through the recruitment process i.e you start with 100,after one week you go to 40,the next 30,then 20,15,13,10,and finally 5 (diminishing cohort size). In this data, a user or all users can register and go through all steps in the same day; thus will not produce the expected curves
+
+Results
+
+- However, from the plotted curves we see that users in all cohorts got stuck at 40% [ providing profile information - 40% ] - this is the erea that needs attention
+- Only 1 got stuck at registraion
+- Everyone was able to activate their accounts
+- Etc Etc
+
+
+
+
+
