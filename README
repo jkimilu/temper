@@ -4,7 +4,7 @@ Assummptions
  Requirememts
  - PHP5+MYSQL+INTERNET (for js and css CDNs)
 Installation
-- Import database folder db.sql 
+- Import database folder temper.sql ,create database temper, load file into this database.
 - Copy temper folder into your root directory.
 - If you are using MacOs XAMPP root directory => $ Applications/XAMPP/htdocs
 - Set database/username/password in config.php
@@ -23,7 +23,8 @@ Results
 - However, from the plotted curves we see that users in all cohorts got stuck at 40% [ providing profile information - 40% ] - this is the erea that needs attention
 - Only 1 got stuck at registraion
 - Everyone was able to activate their accounts
-- Etc Etc
+
+
 
 
 
